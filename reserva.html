@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarefaaula4</title>
+    <style type="text/css">
+        .menu ul li{
+            
+            background-color: #c89d68;
+            color: white;
+            float: left;
+            width:270px;
+            height: 40px;
+            display: block;
+            text-align: center;
+            line-height: 40px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .menu ul li:hover{
+            background-color: #475949;
+        }
+        .menu ul{
+            padding: 0px
+        }
+        .menu ul ul{
+            display: none;
+        }
+        .menu ul li:hover > ul{
+            display: block;
+        }
+        .menu ul ul ul{
+            margin-left: 202px;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="eslilo.css">
+    <header>
+        
+            
+        <div>
+            <h1><b>Venha desfrutar do melhor que a natureza pode proporcionar</h1></b>
+            
+        </div>  
+        
+        <img src="pousada.png" alt="pousada" width="180" height="160" >
+    </header>
+</head> 
+
+
+<body class="back6">
+    
+    
+</body>
+    <nav class="menu">
+        <ul>
+            <li>Home
+                <ul>
+                <li><a href="index.html">Voltar</a></li>
+                </ul>
+            </li>
+            <li>Hospedagem
+                <ul>
+                    <li><a href="valor.html" target="_self">Valores</a></li>
+                    <li><a href="reserva.html" target="_self">Reserva</a></li>
+                </ul>
+            </li>
+            <li>Endereço
+                <ul>
+                    <li><a href="mapa.html">Como chegar</a></li>
+                </ul>
+            </li>
+            <li>Serviços
+                <ul>
+                    <li> <a href="passeio.html" target="_self">Passeio a cavalo</a></li>
+                    <li><a href="piscina.html" target="_self">Piscina</a></li>
+                    <li><a href="cafe.html" target="_self">Café da manha</a></li>
+                    <li><a href="churrasqueira.html"target="_self">Churrasqueiras</a></li>
+                    <li><a href="bar.html" target="_self">Bar</a></li>
+                </ul>
+            </li>
+            <li>Contato
+                <ul>
+                    <li>(53) 98415-7585</li>                           
+                    
+                </ul>
+            </li>
+            <form action="pagina reserva">
+                
+                <div class="reserva">
+                    <b><label for="nome">Nome</label></b>
+                    <input type="text"id=nome>
+                </div>
+                <div>
+                    <b><label for="nome">Email</label></b>
+                    <input type="text"id=email >
+                </div>
+                <div>
+                    <b><label for="nome">Telefone</label></b>
+                    <input type="text"id=fone>
+                </div>
+                <div>
+                    <b><label for="nome">Quarto</label></b>
+                    <input type="text" id=quarto>
+                </div>
+                <div>
+                    <b><label for="nome">Chegada</label></b>
+                    <input id="date" type="date">
+                </div>
+                <div>
+                    <b><label for="nome">Saída</label></b>
+                    <input id="date" type="date">
+                </div>
+                <div class="button">
+                        <button type="submit"><a href="confirmação.html">Solicitar sua reserva</a></button>
+                        
+                </div>
+                
+            </form>
+                
+            
+        </ul>
+
+    </nav>
+
+
+
+</html>

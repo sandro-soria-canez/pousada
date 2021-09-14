@@ -1,0 +1,186 @@
+header{
+    
+    text-align: left;
+
+}
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+ul li a{
+    text-decoration: none;
+}
+div{
+    
+    text-align: center;
+}
+div h1{
+    
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #475949;
+    margin-right: 50px;
+    font-size: 35px;
+    margin-top: 60px;
+    
+}
+div h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 390px;
+    background-color: #c89d68 ;
+    color: #475949;
+    font-size: 30px;
+    
+} 
+.back{
+    background-image:url(cabanatra.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.back1{
+    
+    background-image:url(passeiotra.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.back2{
+    
+    background-image: url(piscinatra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 635px;
+    
+}
+.back3{
+    background-image: url(cafetra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back4{
+    background-image: url(churrasqueiratra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 635px;
+}
+.back5{
+    background-image: url(bartra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.back6{
+    background-image: url(quartotra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back7{
+    background-size: cover;
+}
+
+.mapa h2{
+   margin-top: 20px;
+}
+
+.img{
+    margin-left: 150px;
+    float: left;
+    
+}
+
+.galeria img:hover{
+    float: left;
+    margin-left: 80px;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+         
+}
+.galeria img:hover{
+    
+    -webkit-transform: scale(2.2);
+    transform: scale(2.2);
+    
+}
+.valor{
+    float: center;
+    margin-top: 250px;
+    background-color: #c89d68;
+    
+}
+tr{
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+td{
+    color: #475949 ;
+}
+form {
+    float: left;
+    /* Apenas para centralizar o form na página */
+    margin-top: 130px;
+    margin-left: 400px;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 3mm;
+    border: 2px solid #475949;
+    border-radius: 3mm;
+}
+form div + div {
+    margin-top: 5px;
+}
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #475949;
+}
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #475949;
+}
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+.button a{
+    text-decoration: none;
+}
+.center{
+    margin-top: 150px;
+}
+@media screen and (max-width: 480px){
+    .back, .back1, .back2, .back3, .back4, .back5, .back6, .back7{
+        background-image: url(responsivo.jpg);
+    }
+  
+}
+
+.container{
+    position: relative;
+    left: 120px;
+}
+.box{
+    position: relative;
+}
+li ul li img{
+    margin-top: 5px;
+    
+}
+
