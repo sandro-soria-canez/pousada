@@ -32,7 +32,14 @@ div h2{
     color: #475949;
     font-size: 30px;
     
-} 
+}
+
+.logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10cm;
+}
+
 .back{
     background-image:url(cabanatra.jpg); 
     background-repeat: no-repeat;
